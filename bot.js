@@ -407,8 +407,7 @@ client.on("message", message => {
 
 ^^support| القسم الثاني  الدعم الفني و المساعدة
 
-القسم الثالث مصمم البوت | @! Z |ĦÂмØ♚#6947
-
+القسم الثالث مصمم البوت |@@ོ,$!S7Q | ĦÂмØ |♚
 
 
 
@@ -466,7 +465,7 @@ client.on("message", message => {
 
 ^^support| القسم الثاني  الدعم الفني و المساعدة
 
-القسم الثالث مصمم البوت | @! Z |ĦÂмØ♚#6947
+القسم الثالث مصمم البوت | @@ོ,$!S7Q | ĦÂмØ |♚
 
 
 `)
@@ -934,31 +933,7 @@ client.on('message', message=>{
 
 })
   
-  client.on('message', message => {
- if (message.content.startsWith("!w")) {
-                                 var mentionned = message.mentions.users.first();
-             var mentionavatar;
-               if(mentionned){
-                   var mentionavatar = mentionned;
-               } else {
-                   var mentionavatar = message.author;
-                   
-               }
-               let bot;
-               if(message.author.bot) {
-                   bot = 'Bot'
-               } else {
-                   bot = 'User'
-               } 
-  var EsTeKnAN = new Discord.RichEmbed()
-  .setColor('RANDOM')
-  .setThumbnail(`${mentionavatar.avatarURL}`)
-  .addField("***شكرا الانضمامك الينا***" ,mentionavatar.username )
-  .setDescription('***WELCOME TO CLAN Z***')
-  .setImage('http://www.imgion.com/images/01/Welcome-buddy.jpg')
-   message.channel.sendEmbed(EsTeKnAN);
-  }
-});
+
   
   
   client.on('message', message => {
